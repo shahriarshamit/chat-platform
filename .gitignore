@@ -1,0 +1,25 @@
+# Environment files and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+**/vendor/
+**/node_modules/
+
+# Laravel generated files
+**/storage/*.key
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+**/storage/logs/*
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local test and temporary files
+*.log
+*.tmp
